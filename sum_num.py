@@ -8,8 +8,8 @@ def sum_num(nums):
 t1 = [1,2,3,4,5]
 assert sum_num(t1) == 15, "should sum to 15"
 
-t1 = []
-assert sum_num(t1) == 0, "should sum to 0"
+t2 = []
+assert sum_num(t2) == 0, "should sum to 0"
 
-t1 = [1]
-assert sum_num(t1) == 1, "should sum to 1"
+t3 = [1]
+assert sum_num(t3) == 1, "should sum to 1"
