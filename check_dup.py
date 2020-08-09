@@ -9,12 +9,12 @@ def check_dup(nums):
 
 # Test
 t1 = [1,2,3,4,5,6]
-assert t1 == False, "should be False, no dups"
+assert check_dup(t1) == False, "should be False, no dups"
 
 t2 = []
-assert t2 == False, "should be False, no dups"
+assert check_dup(t2) == False, "should be False, no dups"
 
 t3 = [1,2,45,88,1]
-assert t3 == False, "should be True"
+assert check_dup(t3) == False, "should be True"
       
   
